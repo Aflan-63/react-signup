@@ -1,0 +1,56 @@
+.mediaViewInfo {
+	--web-view-name: Minus;
+	--web-view-id: Minus;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Minus;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Minus {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Minus;
+	--web-view-id: Minus;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Subtraction {
+	position: absolute;
+	width: 205px;
+	height: 268px;
+	left: 0px;
+	top: -50px;
+	overflow: visible;
+}
+.minusBox {
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	height: 205px;
+	left: 0px;
+	top: 50px;
+}
+#_ {
+	position: absolute;
+	left: 61px;
+	top: 0px;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 220px;
+	color: rgba(255,255,255,1);
+}

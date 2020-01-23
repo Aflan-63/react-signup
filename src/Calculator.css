@@ -1,0 +1,92 @@
+.mediaViewInfo {
+	--web-view-name: Calculator;
+	--web-view-id: Calculator;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Calculator;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Calculator {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgb(255, 255, 255);
+	overflow: hidden;
+	--web-view-name: Calculator;
+	--web-view-id: Calculator;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+.buttonSub {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 461px;
+	top: 728.5px;
+}
+.buttonSum {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 723px;
+	top: 728.5px;
+}
+.buttonDiv {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 985px;
+	top: 728.5px;
+}
+.buttonMul {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 1247px;
+	top: 728.5px;
+}
+/* .textInput_2 {
+	overflow: visible;
+	position: absolute;
+	width: 474px;
+	height: 1px;
+	left: 461.5px;
+	top: 652.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.textInput_1 {
+	overflow: visible;
+	position: absolute;
+	width: 474px;
+	height: 1px;
+	left: 986.5px;
+	top: 652.5px;
+	transform: matrix(1,0,0,1,0,0);
+} */
+.textOutput {
+	position: absolute;
+	overflow: visible;
+	width: 999px;
+	height: 140px;
+	left: 461px;
+	top: 357px;
+}
+.imageView {
+	position: absolute;
+	overflow: visible;
+	width: 1920px;
+	height: 313px;
+	left: 0px;
+	top: 0px;
+}

@@ -1,0 +1,56 @@
+.mediaViewInfo {
+	--web-view-name: Division;
+	--web-view-id: Division;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Division;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Division {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Division;
+	--web-view-id: Division;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Multiplication {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.MulBox {
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	height: 205px;
+	left: 0px;
+	top: 0px;
+}
+#X {
+	position: absolute;
+	left: 59px;
+	top: 18px;
+	overflow: visible;
+	width: 89px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 139px;
+	color: rgba(255,255,255,1);
+}

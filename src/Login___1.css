@@ -1,0 +1,135 @@
+.mediaViewInfo {
+	--web-view-name: Login – 1;
+	--web-view-id: Login___1;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Login___1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Login___1 {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Login – 1;
+	--web-view-id: Login___1;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+.Card {
+	filter: drop-shadow(0px 1px 1px rgba(77, 77, 77, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 601px;
+	height: 601px;
+	left: 669px;
+	top: 297px;
+}
+.Footer {
+	filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1938px;
+	height: 185px;
+	left: 0px;
+	top: 913px;
+}
+.Front_Picture {
+	filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1938px;
+	height: 291px;
+	left: 0px;
+	top: 0px;
+}
+#Login_Details {
+	position: absolute;
+	width: 512px;
+	height: 415px;
+	left: 704px;
+	top: 374px;
+	overflow: visible;
+}
+.namebox {
+	filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 530px;
+	height: 82px;
+	left: 0px;
+	top: 49px;
+}
+.passwordbox {
+	filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 530px;
+	height: 82px;
+	left: 0px;
+	top: 202px;
+}
+.btn_login {
+	filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 530px;
+	height: 82px;
+	left: 0px;
+	top: 351px;
+}
+#NAME {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	width: 118px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgb(255, 255, 255);
+}
+#Password {
+	position: absolute;
+	left: 0px;
+	top: 156px;
+	overflow: visible;
+	width: 227px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 33px;
+	color: rgb(255, 255, 255);
+}
+#login {
+	position: absolute;
+	left: 198px;
+	top: 361px;
+	overflow: visible;
+	width: 95px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 37px;
+	color: rgba(112,112,112,1);
+}

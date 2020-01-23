@@ -1,0 +1,56 @@
+.mediaViewInfo {
+	--web-view-name: Subtraction;
+	--web-view-id: Subtraction;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Subtraction;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Subtraction {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Subtraction;
+	--web-view-id: Subtraction;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Division {
+	position: absolute;
+	width: 205px;
+	height: 205px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.divBox {
+	position: absolute;
+	overflow: visible;
+	width: 205px;
+	height: 205px;
+	left: 0px;
+	top: 0px;
+}
+#_ {
+	position: absolute;
+	left: 85px;
+	top: 44px;
+	overflow: visible;
+	width: 36px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 97px;
+	color: rgba(255,255,255,1);
+}
